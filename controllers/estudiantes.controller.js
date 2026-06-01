@@ -127,3 +127,5 @@ exports.deleteById = async (req, res) => {
         });
     }
 }
+
+db.Estudiante = require('../models/estudiante.model.js')(sequelize, Sequelize);

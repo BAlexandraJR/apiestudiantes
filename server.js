@@ -34,3 +34,6 @@ const server = app.listen(8080, function () {
  
   console.log("App listening at http://%s:%s", host, port); 
 })
+
+const db = require('./config/db.config.js');
+let router = require('./routers/router.js');

@@ -35,3 +35,5 @@ class Database {
 
 
 module.exports = new Database();
+
+db.Estudiante = require('../models/estudiante.model.js')(sequelize, Sequelize);
