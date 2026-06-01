@@ -2,7 +2,7 @@ const env = {
     database: 'api-estudiantes ',
     username: 'api_estudiantes_user',
     password: 'ydcX4Fos6dWb2UgtlW4DQaH5xzwIFDW2',
-    host: 'dpg-d8eh9pn40ujc73djjbjg-a.oregon-postgres.render.com',
+    host: 'dpg-d8ekotho3t8c73fj4t80-a.oregon-postgres.render.com',
     dialect: 'postgres',
     ssl: true,
     pool: {
